@@ -1,0 +1,155 @@
+/* *Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+ * *Code licensed under the BSD License:
+ * *http://developer.yahoo.com/yui/license.html
+ * *version: 2.8.1 */
+html {
+  color: black;
+  background: white; }
+
+body, div, dl, dt, dd, ul, ol, li, h1, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+  font-style: inherit;
+  font-weight: inherit; }
+
+del, ins {
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+caption, th {
+  text-align: left; }
+
+h1, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ""; }
+
+abbr, acronym {
+  border: 0;
+  font-variant: normal; }
+
+sup, sub {
+  vertical-align: baseline; }
+
+legend {
+  color: black; }
+
+input, button, textarea, select, optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit; }
+
+input, button, textarea, select {
+  *font-size: 100%; }
+
+html {
+  background-color: #f3f3f3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 140%; }
+
+.thumbnail {
+  border: 1px solid #999999;
+  position: absolute;
+  text-align: center;
+  margin: 3px;
+  background-color: white;
+  left: 0;
+  top: 0;
+  -moz-box-shadow: 0 0 10px #aaaaaa;
+  -webkit-box-shadow: 0 0 10px #aaaaaa;
+  box-shadow: 0 0 10px #aaaaaa; }
+  .thumbnail img {
+    margin: 2px;
+    vertical-align: middle; }
+
+h2 {
+  font-size: 1.5em; }
+
+#contents {
+  position: relative;
+  color: #999999;
+  width: 600px;
+  margin: 0 auto; }
+  #contents h3 {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    font-weight: bold; }
+    #contents h3 a {
+      color: #444444;
+      text-decoration: none; }
+      #contents h3 a:hover {
+        text-decoration: underline; }
+
+.section h2 {
+  font-size: 2em;
+  margin: 50px 0;
+}
+
+.project {
+  margin-bottom: 100px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-left: 145px; }
+
+p {
+  margin-bottom: 10px; }
+
+
+#contents {
+  padding: 20px 0;
+  color: #222;
+}
+
+#contents ul {
+  margin-top: 50px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+a {
+  color: #333;
+}
+
+.taken {
+  text-decoration: line-through;
+}
+
+.sale:before, .free:before, .gone:before {
+  position: absolute;
+  display: block;
+  left: -110px;
+  width: 100px;
+  text-align: right;
+}
+
+.sale:before {
+  content: "[buy] ";
+  color: #4186d3;
+}
+
+.free:before {
+  content: "[free] ";
+  color: #B3DF1B;
+}
+
+.gone:before {
+  content: "[gone] ";
+  color: #FF3A00;
+  color: #ddd;
+}
