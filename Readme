@@ -1,0 +1,5 @@
+less.cohitre.com
+
+1. edit stuff.textile.com, you can tag things with (gone) (sell) or (free)
+2. compile with `rake compile`, this will generate index.html
+3. upload index.html and css/application.css somewhere
